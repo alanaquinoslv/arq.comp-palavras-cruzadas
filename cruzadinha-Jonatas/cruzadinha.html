@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cruz.css">
+    <title>Cruzadinha</title>
+  </head>
+  
+  <body>
+   <h1>CRUZADINHA - ARQ. COMP</h1>
+    <table>
+        
+      <tr>
+        <td></td>
+        <td class="'registradores'"><sup onclick="verificar()">1</sup>R</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class=" 'registradores''eprom'"><sup>4</sup> E</td>
+        <td class="'eprom'">P</td>
+        <td class="'eprom'"> R</td>
+        <td class="'eprom'">O</td>
+        <td class="'eprom' 'memoria'"><sup>5</sup> M</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="'registradores'">G</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'memoria'">E</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'threads'"><sup>12</sup> T</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="'registradores''i7'"><sup onclick="verificar()">2</sup> I</td>
+        <td class="'i7'">7</td>
+        <td></td>
+        <td></td>
+        <td class="'memoria'"> M</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="span"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'threads'">H</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="'registradores'">S</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'memoria'">O</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td ></td> </td>
+        <td ></td>
+        <td ></td>
+        <td></td>
+        <td></td>
+        <td class="'threads''rom'"><sup>13</sup> R</td>
+        <td class="'rom'">O</td>
+        <td class="'rom'">M</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="'registradores'">T</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'memoria'"> R</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'quad core'"> <sup>11</sup> Q</td>
+        <td class="'quad core'">U</td>
+        <td class="'adress bus''quad core'"><sup>8</sup> A</td>
+        <td class="'quad core'">D</td>
+        <td class="'quad core'">C</td>
+        <td class="'quad core'">O</td>
+        <td class="'quad core'"> R</td>
+        <td class="'quad core' 'threads'">E</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="'registradores'">R</td>
+        <td ></td>
+        <td ></td>
+        <td></td>
+        <td class="'memoria''i5'"> <sup>3</sup> I</td>
+        <td class="'i5'">5</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'adress bus'">D</td>
+        <td></td>
+        <td ></td>
+        <td></td>
+        <td></td>
+        <td class="'threads'">A</td>
+        <td></td>
+        <td></td>
+        <td class="'ram'"><sup>17</sup>R</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="'registradores'">A</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'memoria'">A</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'adress bus'">R</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'threads' 'data bus'"><sup>16</sup> D</td>
+        <td class="'data bus'">A</td>
+        <td class="'data bus'">T</td>
+        <td class="'data bus' 'ram'"> A</td>
+        <td class="'data bus'">B</td>
+        <td class="'data bus'">U</td>
+        <td class="'data bus'">S</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="'registradores'">D</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'memoria''dual core'"><sup>7</sup> D</td>
+        <td class="'dual core'">U</td>
+        <td class="'dual core'">A</td>
+        <td class="'dual core'">L</td>
+        <td class="'dual core' 'cpu'"><sup>15</sup> C</td>
+        <td class="'dual core'">O</td>
+        <td class="'dual core'">R</td>
+        <td class="'dual core' 'adress bus'">E</td>
+        <td ></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'threads'">S</td>
+        <td></td>
+        <td></td>
+        <td class="'ram'">M</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="'registradores'">O</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'memoria'">E</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'cpu'">P</td>
+        <td></td>
+        <td></td>
+        <td class="'adress bus'">S</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="'registradores'"> R</td>
+        <td ></td>
+        <td ></td>
+        <td></td>
+        <td class="'memoria'">M</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'cpu'">U</td>
+        <td></td>
+        <td></td>
+        <td class="'adress bus'">S</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="'registradores'">E</td>
+        <td></td>
+        <td class="'flash'"><sup>6</sup> F</td>
+        <td class="'flash'">L</td>
+        <td class="'memoria''flash'">A</td>
+        <td class="'flash'">S</td>
+        <td class="'flash'">H</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'adress bus'">B</td>
+        <td></td>
+        <td class="'cache'"><sup>10</sup> C</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="'registradores'">S</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'memoria'">S</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'adress bus' 'ula'"> <sup>9</sup>U</td>
+        <td class="'ula'">L</td>
+        <td class="'ula' 'cache'">A</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'memoria'">S </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'cs'"><sup>14</sup> C</td>
+        <td class="'adress bus' 'cs'">S</td>
+        <td></td>
+        <td class="'cache''core'"> <sup>19</sup> C</td>
+        <td class="'core'">O</td>
+        <td class="'core'">R</td>
+        <td class="'core'">E</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'dma'"> <sup>18</sup> D</td>
+        <td class="'dma'">M</td>
+        <td class="'memoria''dma'">A</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'cache'">H</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td ></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="'cache'">E</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td ></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    
+    </table>
+    
+
+    <button onclick="dica1()">DICA 1</button>
+    <button onclick="dica2()">DICA 2</button>
+    <button onclick="dica3()">DICA 3</button>
+    <button onclick="dica4()">DICA 4</button>
+    <button onclick="dica5()">DICA 5</button>
+    <button onclick="dica6()">DICA 6</button>
+    <button onclick="dica7()">DICA 7</button>
+    <button onclick="dica8()">DICA 8</button>
+    <button onclick="dica9()">DICA 9</button>
+    <button onclick="dica10()">DICA 10</button>
+    <button onclick="dica11()">DICA 11</button>
+    <button onclick="dica12()">DICA 12</button>
+    <button onclick="dica13()">DICA 13</button>
+    <button onclick="dica14()">DICA 14</button>
+    <button onclick="dica15()">DICA 15</button>
+    <button onclick="dica16()">DICA 16</button>
+    <button onclick="dica17()">DICA 17</button>
+    <button onclick="dica18()">DICA 18</button>
+    <button onclick="dica19()">DICA 19</button>
+
+    <div id="res" style="font-weight: bold; font-size:30px;"></div>
+  
+<form onsubmit="javascript:verificarResposta()" action="javascript:null">
+<input / placeholder="Digite uma palavra">
+</form>
+
+
+  </body>
+  <script src="cruz.js"></script>
+</html>
+
